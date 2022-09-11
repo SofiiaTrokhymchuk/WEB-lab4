@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="JS, DOM">
+    <meta name="description" content="Access to objects. DOM manupalation.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM</title>
+</head>
+<body>
+    <h2>Трохимчук Софія Сергіївна</h2>
+    <p><strong>Дата і місце народження:</strong> 01.06.2002, м. Київ.</p>
+    <p><strong>Освіта:</strong> 126, КПІ ім. Ігоря Сікорського.</p>
+    <h3>Хоббі:</h3>
+    <ul>
+        <li id="list-item-drawing"><span>Малювання</span></li>
+        <li class="list-item-photographing"><span>Фотографії</span></li>
+        <li>Книги</li>
+    </ul>
+    <h3>Улюблені книги/фільми:</h3>
+    <ol>
+        <li>Марсіянин (<em>книга</em>)</li>
+        <li>Аватар (<em>фільм</em>)</li>
+        <li>Артеміда (<em>книга</em>)</li>
+    </ol>
+    <h3>Улюблене місто:</h3>
+    <p>
+        <strong>Київ</strong> – столиця України та одне з найстаріших міст Європи, засноване щонайменше 1500 років тому. Сучасне європейське місто 
+        здатне здивувати будь-кого – від любителів природної краси, архітектури та визначних пам'яток до тих, хто віддає перевагу 
+        більш насиченому та активному відпочинку.
+    </p>
+    <div class="img-container">
+        <a href="https://kiyavia.com/cities/kyiv" target="_blank">
+            <img id="img-original" class="city-img" src="https://media.slovoidilo.ua/media/publications/16/153917/153917-1_large.jpg" alt="Kyiv Image">
+        </a>
+    </div>
+    <button id="add-img">Додати</button>
+    <button id="enlarge-img">Збільшити</button>
+    <button id="reduce-img">Зменшити</button>
+    <button id="delete-img">Видалити</button>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

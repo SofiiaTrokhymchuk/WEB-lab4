@@ -1,0 +1,28 @@
+body{
+    font-family: monospace, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.drawing-bg-first-click span, .photographing-bg-second-click span{
+    display: block;
+    background: #ffea00;
+}
+
+.drawing-bg-second-click span, .photographing-bg-first-click span{
+    display: block;
+    background: #00008b;
+    color: #fff;
+}
+
+.city-img{
+    width: 400px;
+    margin: 0.3rem;
+}
+
+#img-original{
+    margin-right: -0.3rem;
+}
